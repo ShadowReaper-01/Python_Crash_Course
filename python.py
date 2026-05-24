@@ -15,3 +15,11 @@ print(name.upper())
 firstname = 'sparsh'
 lastname = 'gautam'
 print(f"{firstname} {lastname}")
+
+# Page No - 21,22 (Using whitespaces and learning how to strip string)
+para = '  My name is sparsh gautam \n and i belong to sagar \t madhya pradesh  '
+paraLstrip = para.lstrip()
+paraRstrip = para.rstrip()
+print(para)
+print(paraLstrip)
+print(paraRstrip)
