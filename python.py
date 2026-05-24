@@ -10,3 +10,8 @@ name = 'sparsh'
 print(name.title())
 print(name.lower())
 print(name.upper())
+
+# Page No - 21 (Using Variables as Strings and f Function)
+firstname = 'sparsh'
+lastname = 'gautam'
+print(f"{firstname} {lastname}")
