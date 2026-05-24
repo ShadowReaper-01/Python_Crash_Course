@@ -29,3 +29,10 @@ url = 'https://google.com'
 urlRP = url.removeprefix('https://')
 urlRS = url.removesuffix('google.com')
 print(url , urlRP , urlRS)
+
+# Page No - 27,28 (About Numbers Integers And Floats and Constants)
+num = 1
+float = 2.0
+y = float / num
+THISISACONSTANT = 12
+print(type(num), type(float), type(y))
