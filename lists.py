@@ -17,3 +17,11 @@ print(newpoplist)
 
 newlist.remove('ajay')
 print(newlist)
+
+# Page No - 42,43 (Organizing the Lists and using sort() reverse() and len() )
+heroes = ['thor','iron-man','hulk','captain america']
+heroes.sort()
+print(heroes)
+heroes.reverse()
+print(f'{heroes}')
+print(len(heroes))
