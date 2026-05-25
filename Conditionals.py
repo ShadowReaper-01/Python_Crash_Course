@@ -12,4 +12,22 @@ age = int(input())
 if age < 18:
     print("you are not adult enough to see this movie!!")
 else:
-    print("you are adult enough to see this movie")    
+    print("you are adult enough to see this movie")
+
+# Page No - 80 - 87 (about using if statements in a lists)
+available_pizza = ['cheeze pizza','macaroni pizza','tomato pizza','onion pizza','garlic pizza','capcicum pizza']   
+
+notavailable_pizza = ['hot pizza','xyz pizza','mickey piza','kids pizza','pizza-pizza']
+
+s = input("please type what type of pizza you want??")
+
+for pizzas in available_pizza:
+    if s in available_pizza:
+        print(f"ordering {s} , order would be ready in two minutes")
+        break
+    if s in notavailable_pizza:
+        print(f"sorry!! {s} not currently available")
+        break
+    else:
+        print(f"get out of store!!")
+print("thanks for choosing dash pizzas")            
