@@ -13,4 +13,13 @@ def greet(hero,heroclass):
     print(f"{heroclass}, that is a superb class")
 
 greet('garou','S')
-greet("saitama","B")    
+greet("saitama","B")
+
+# Page No-133,134,135,136,137,138 (About Return Function)
+def devisibleby2():
+    number = int(input("Please Enter Your Number"))
+    if number % 2 ==0:
+        return "Even"
+    else:
+        return "Odd"
+print(devisibleby2())    
