@@ -1,9 +1,15 @@
-prompt = "\nPlease enter the name of a city you have visited:"
-prompt += "\n(Enter 'quit' when you are finished.) "
+# Page No-122,123,124 (While Loop in Lists)
+s = input("Enter your name!! ")
+lists = ['kunal', 'riya', 'karana', 'arjun']
+confirmedlists = []
 
-while True:
-    city = input(prompt)
-    if city == 'quit':
-        break
-    else:
-        print(f"I'd love to go to {city.title()}!")
+# Loop until 'lists' is completely empty
+while lists:
+    newlist = lists.pop()
+    confirmedlists.append(newlist)
+
+# Check if the entered name was one of the elements
+if s in confirmedlists:
+    print("your name has been confirmed")
+
+print(confirmedlists)
