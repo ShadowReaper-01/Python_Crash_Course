@@ -28,5 +28,16 @@ for key,value in dict1.items():
 # Page No- 100,104 (sorting a list in a loop)
 dict2 = {'student1':"aman",'student2':'riya','student3':'kunal','student4':'zoya'}
 for value in sorted(dict2.values()):   
-    print(f"these are the sorted values of dictionary 2 \n {value}") 
+    print(f"these are the sorted values of dictionary 2 \n {value}")
+
+# Page No-106,107 (Dictionary in a Dictionary)
+dict3 = {"name":'doraemon',"class":"cat-robot","height":'4.3',"time":"22th century","number":"11-b"}
+dict4 = {"name":"nobita","class":"human","height":"5.5","time":"19th century",'number':'2'}
+
+main_dict = [dict3,dict4]
+
+for dicts in main_dict:
+    for elements in dicts:
+        print(elements)
+        
 
