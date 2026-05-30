@@ -1,4 +1,4 @@
-# Page No - 10 (Basic Introduction about Printing Hello Python World Command)
+# Page No - 10 (Basic Introduction about printing Hello Python World Command)
 print("Hello Python World")
 
 # Page no - 16 (Using Variables and printing a message)
