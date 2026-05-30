@@ -17,3 +17,11 @@ message = input("Who is your favourite superhero?")
 
 while message != 'quit':
     print(f"{message}, that is also mine favourite superhero!!")
+
+# Page No - 120 (using Flags In While Loop)
+new_message = input("What do you like pizza or burger??")
+flag = True
+
+while True:
+    print(f"{new_message} i love it too")
+    
