@@ -5,4 +5,12 @@ def sum():
     
     z = x + y
     print(z)
-sum()    
+sum() 
+
+# Page No - 131,132 (functions call)
+def greet(hero,heroclass):
+    print(f"{hero},that is your favourite superhero? you have a good taste")
+    print(f"{heroclass}, that is a superb class")
+
+greet('garou','S')
+greet("saitama","B")    
