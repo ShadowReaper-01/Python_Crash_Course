@@ -5,7 +5,7 @@ print("Hello Python World")
 message = "my name is sparsh"
 print(message)
 
-# Page No - 20 (About String and String Methods operation)
+# Page No - 20 (About string and String Methods operation)
 name = 'sparsh'
 print(name.title())
 print(name.lower())
