@@ -7,7 +7,7 @@ if user_input %10 ==0:
 else:
     print("number is not divisible by 10!!") 
 
-# Page no - 118,119 (Inroduction Of While Loops)
+# Page no - 118,119 (Inroduction to While Loops)
 number = 2
 while number < 20:
     number += 1
