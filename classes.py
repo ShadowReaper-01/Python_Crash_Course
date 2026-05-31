@@ -18,3 +18,10 @@ print(hero1)
 print(hero2)
 print(hero1.name)
 print(hero2.Hero_class)
+
+# Page No-179 (About Python Libraries)
+from random import randint as ri
+from random import choice as ch
+print(ri(1,100))
+characters = ['amit','queen','king','subaru','goku','saitama']
+print(ch(characters))
