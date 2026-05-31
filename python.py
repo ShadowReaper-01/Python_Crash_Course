@@ -1,7 +1,7 @@
 # Page No - 10 (Basic Introduction about printing Hello Python World Command)
 print("Hello Python World")
 
-# Page no - 16 (Using Variables and printing a message)
+# Page no - 16 (Using variables and printing a message)
 message = "my name is sparsh"
 print(message)
 
