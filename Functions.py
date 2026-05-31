@@ -22,4 +22,19 @@ def devisibleby2():
         return "Even"
     else:
         return "Odd"
-print(devisibleby2())    
+print(devisibleby2())
+
+# Page No - 140,141 (About Using While Loops In A Function)
+def name(firstname,lastname):
+    while True:
+        if firstname != 'q':
+            print(f"{firstname} its a beautiful firstname ")
+
+        if lastname != 'q':
+            print(f"{lastname}  its a beautiful lastname")
+        break        
+
+name('anuj','kothari')                
+
+
+
