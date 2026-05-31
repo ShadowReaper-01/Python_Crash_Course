@@ -24,7 +24,7 @@ print(para)
 print(paraLstrip)
 print(paraRstrip)
 
-# Page No - 24 (Using removeprefix() and removesuffix())
+# Page No - 24 (using removeprefix() and removesuffix())
 url = 'https://google.com'
 urlRP = url.removeprefix('https://')
 urlRS = url.removesuffix('google.com')
